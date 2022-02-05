@@ -6,14 +6,14 @@
     <div class="flex items-center justify-center">
       <button
         class="px-4 py-2 font-bold text-white bg-green-500 rounded hover:bg-green-700"
-        @click="() => counter++"
+        @click="counter++"
       >
         +
       </button>
       <span class="mx-2">{{ counter }}</span>
       <button
         class="px-4 py-2 font-bold text-white bg-green-500 rounded hover:bg-green-700"
-        @click="() => counter--"
+        @click="counter--"
       >
         -
       </button>
@@ -22,5 +22,5 @@
 </template>
 
 <script lang="ts" setup>
-const counter = 0;
+const counter = ref(0);
 </script>
