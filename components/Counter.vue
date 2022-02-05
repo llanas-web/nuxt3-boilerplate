@@ -17,6 +17,7 @@
       >
         -
       </button>
+      <p>Should result as error in workflow</p>
     </div>
   </div>
 </template>
