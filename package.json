@@ -6,7 +6,7 @@
     "prepare": "nuxi prepare",
     "start": "node .output/server/index.mjs",
     "test": "jest",
-    "lint": "eslint --ext .js,.ts --ignore-path .eslintignore ."
+    "lint": "eslint --ext .js,.ts --ignore-path ."
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.11",

@@ -17,7 +17,6 @@ module.exports = {
   ],
   plugins: ["@typescript-eslint"],
   rules: {
-    "vue/script-setup-no-uses-vars": "off",
     "prettier/prettier": [
       "error",
       {
