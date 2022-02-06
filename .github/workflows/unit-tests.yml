@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Tests
+name: Unit Tests
 
 # Controls when the workflow will run
 on:
@@ -34,4 +34,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies
         run: npm ci
-      - run: npm run test
+      - name: Preparing Nuxt
+        run: npm run prepare
+      - name: Run tests
+        run: npm run test

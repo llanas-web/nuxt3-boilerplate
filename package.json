@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
+    "prepare": "nuxi prepare",
     "start": "node .output/server/index.mjs",
     "test": "jest",
     "lint": "eslint --ext .js,.ts --ignore-path .eslintignore ."
