@@ -6,4 +6,4 @@ coverage
 .nuxt
 nuxt.d.ts
 .output
-.env
+*.env*
