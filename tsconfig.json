@@ -2,14 +2,6 @@
   // https://v3.nuxtjs.org/concepts/typescript
   "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
-    "types": [
-      "@types/node",
-      "@types/jest",
-      "@vue/test-utils"
-    ],
-    "paths": {
-      "@/components/*": ["components/*"],
-      "@/pages/*": ["pages/*"]
-    }
+    "experimentalDecorators": false
   }
 }
